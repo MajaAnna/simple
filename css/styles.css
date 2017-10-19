@@ -1,0 +1,204 @@
+/*
+*
+{
+    margin: 0;
+    padding: 0;
+}
+*/
+body {
+    background: url("../obrazki/lotus11.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+    font-family: "Basic", sans-serif;
+}
+
+div.container{
+    width: 1140px;
+    margin: auto;
+    padding: 0 15px;
+    
+}
+
+div.content{
+    overflow:auto;
+    width: 100%;
+}
+
+div.content2{
+    overflow: auto;
+    width: 100%;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.6); 
+}
+
+div.main-content{
+    width: 70%;
+    float: left;
+}
+div.sidebar{
+    width: 30%;
+    float: left;
+}
+
+article, article2, aside, footer, header, section{
+    display: block;
+    /* wyświetlą się jedne pod drugim*/
+}
+article, .title, footer, aside{
+    background: rgba(255, 255, 255, 0.6);
+    padding: 20px;
+}
+
+article2{
+    width: 100%;
+    text-align: justify;
+}
+.h2{
+    padding: 10px;
+}
+.p{
+    padding: 10px;
+}
+
+h1, h2, h3, h4{
+    color: cadetblue;
+}
+
+header{
+    margin-bottom: 15px;
+}
+
+article{
+    margin-right: 15px;
+    margin-bottom: 15px;
+    overflow: auto;
+    text-align: justify;
+}
+
+footer{
+    margin-top: 15px;
+    text-align: center;
+}
+
+figure{
+    float: left;
+    border-right: 4px dotted;
+    border-bottom: 4px dotted white;
+    border-color: rgba(255, 255, 255, 0.6);
+    padding: 10px;
+}
+
+figcaption{
+    text-align: center;
+}
+
+/*navigation*/
+
+nav ul{
+    list-style: none;
+    overflow: auto;
+    background: rgba(255, 255, 255, 0.6);
+    font-style: bold;
+    padding: 0;
+}
+
+nav ul li{
+    float: left;
+    height: 40px;
+    width: 100px;
+    margin: 10px;
+}
+
+nav ul li a{
+    color: cadetblue;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+nav ul li a span{
+    display: table-cell;
+    vertical-align: middle;}
+.home{
+    background: rgba(95, 158, 160, 0.6);
+    }
+.pink{
+    background: rgba(203, 190, 181, 0.6);
+}
+.violet{
+    background: rgba(195, 151, 151, 0.45);
+}
+.grey{
+    background: rgba(204, 204, 204, 0.6);
+}
+.register{
+    background: rgba(205, 197, 191, 0.6);
+    float: right;
+}
+/*register*/
+form{
+    background: rgba(255, 255, 255, 0.6);
+    padding: 15px;
+}
+form div.row{
+    width: 50%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+form label{
+    width: 30%;
+    text-align: end;
+    display: block;
+    float: left;
+    margin-right: 20px;
+}
+form input, form select, form textarea{
+    padding: 5px;
+    border-radius: 5px;
+    width: 200px;
+}
+form input[type="checkbox"]{
+    position: relative;
+    left: 30%;
+    width: auto;
+}
+form span{
+    position: relative;
+    left: 30%;
+}
+form input[type="submit"]{
+    width: 150px;
+    background: rgba(205, 197, 191, 0.6);
+    color: cadetblue;
+    cursor: pointer;
+}
+form div.row:last-of-type{
+    text-align: center;
+}
+div.elements{
+    overflow: auto;
+    background: rgba(195, 151, 151, 0.45);
+}
+div.elements div, div.elements a{
+    display: block;
+    width: 50px;
+    height: 50px;
+    float: left;
+    background: rgba(255, 255, 255, 0.6);
+    margin: 20px;
+}
+div.elements *:hover{
+   background: rgba(95, 158, 160, 0.6);
+}
+div.elements *:active{
+    background: rgba(205, 197, 191, 0.6);
+}
+/*input:not(:disabled){
+    background: red;
+}
+div.elements:after{
+    content: "Dowolość";
+    color: white;
+}*/
